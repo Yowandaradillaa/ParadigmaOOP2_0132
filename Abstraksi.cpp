@@ -15,3 +15,11 @@ class Abstraksikelas {
         cout << "y = " << y << endl;
     }
 };
+
+int main () {
+    Abstraksikelas ak;
+    ak.setXY("Yogyakarta" , "Kampus");
+    ak.display();
+
+    return 0;
+}
