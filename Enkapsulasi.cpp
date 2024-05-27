@@ -13,3 +13,18 @@ class remoteLampu {
     }
 };
 
+int main () {
+    remoteLampu lampuRumah;
+
+    lampuRumah.setSakNo(0, "Lampu Teras Rumah");
+    lampuRumah.setSakNo(1, "Lampu Ruang Tamu");
+    lampuRumah.setSakNo(2, "Lampu Kamar Tidur");
+    lampuRumah.setSakNo(3, "Lampu Dapur");
+
+    cout << lampuRumah.getSaklarNo(0) << endl;
+    cout << lampuRumah.getSaklarNo(1) << endl;
+    cout << lampuRumah.getSaklarNo(2) << endl;
+    cout << lampuRumah.getSaklarNo(3) << endl;
+
+    return 0;
+}
